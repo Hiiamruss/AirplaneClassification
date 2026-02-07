@@ -15,7 +15,7 @@ def extract_plane_name(file_name):
 
 
 
-breed_model = load_learner("airplane_model_fastai284.pkl")
+breed_model = load_learner("plane_model_fastai284.pkl")
 
 
 def predict(image):
