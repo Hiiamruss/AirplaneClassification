@@ -1,9 +1,6 @@
 import streamlit as st
 from fastai.vision.all import *
-import pathlib
 
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
 
 st.title("Airplane Identifier")
 st.text("Built by, Russell Susanto.")
